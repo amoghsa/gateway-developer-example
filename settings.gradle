@@ -6,4 +6,4 @@
 
 rootProject.name = 'gateway-developer-example'
 
-include 'deployment', 'demo'
+include 'deployment'
