@@ -5,5 +5,5 @@
  */
 
 dependencies {
-//    bundle project(':business-integrations')
+    bundle project(':demo')
 }
