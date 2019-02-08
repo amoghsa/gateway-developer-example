@@ -1,4 +1,4 @@
-import java.time.*
+// import java.time.*
 pipeline {
     agent any
 
@@ -9,7 +9,7 @@ pipeline {
         BASE_IMAGE_REGISTRY_HOSTNAME = 'docker.stable1.apimgcp.com'
         BASE_IMAGE_REGISTRY_REPOSITORY    = 'docker-hosted'
         NEW_IMAGE_NAME = 'gateway'
-        NEW_IMAGE_TAG = time.getTime()
+        NEW_IMAGE_TAG = 'v6'
         NEW_IMAGE_REGISTRY_HOSTNAME = 'docker.stable1.apimgcp.com'
         NEW_IMAGE_REGISTRY_REPOSITORY    = 'docker-hosted'
     }
