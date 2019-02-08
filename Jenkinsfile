@@ -45,7 +45,7 @@ pipeline {
                 timeout(4) {
                     waitUntil {
                         script {
-                            def r = sh script: "wget http://${env.GATEWAY_CONTAINER_IP}:8080/demo", returnStatus: true
+                            def r = sh script: "wget http://${env.GATEWAY_CONTAINER_IP}:8080/quota", returnStatus: true
                             return (r == 0);
                         }
                     }
