@@ -1,0 +1,26 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURDekNDQWZPZ0F3SUJBZ0lRS1MzNkZSakN1UHRZK0xZUCtLazhZakFOQmdrcWhraUc5dzBCQVFzRkFEQXYKTVMwd0t3WURWUVFERXlReE5UUmtaREpsWlMxa1pUQmtMVFF3TURNdE9UUTVaQzB3TW1abE56RXpPVEEyTkRZdwpIaGNOTVRneE1URTFNakl5TnpFMFdoY05Nak14TVRFME1qTXlOekUwV2pBdk1TMHdLd1lEVlFRREV5UXhOVFJrClpESmxaUzFrWlRCa0xUUXdNRE10T1RRNVpDMHdNbVpsTnpFek9UQTJORFl3Z2dFaU1BMEdDU3FHU0liM0RRRUIKQVFVQUE0SUJEd0F3Z2dFS0FvSUJBUUMyYUV3a2JBNmlEbi91dDRnYVRtUE9XaHNNV2gxRHBEMmVPcTEwSVV6awpXZVloNFRFMHZQSmpDU1dzK1pwaFBENlN5c0E0bFYxTE1mMnIyYnRya0Nna243cHUrUWJXNjduaWpSenB6cUh5CmlIbFlOMkp2bFVVaFFJd3ltbzc2V1lzVlRGbllKL1hCc2x1eWFrSDhTK1lKSWdMbWlCbXlSTVNyQXduRGtlL2EKckdjY1JxVkcyNit4Mk54ZU94QUxZVkpzY1BCdEtyc0xONFJENWZTMytiZzU4RThTSnl3VHNYZWxscVlkUkxPVwpkams0WkhvakttYm5FM0ZXd2NpSHNxc1FzR0wrVEdpbkYxV1Uwby8wOU1pdTdlR3lUbFQwVlZBQmxZSGJKNGM2CllycDJROUZMRWlRRnhnelVJYlZrcUpTMGN1MDI2cjJHeTVCNzhCUC9iR3d0QWdNQkFBR2pJekFoTUE0R0ExVWQKRHdFQi93UUVBd0lDQkRBUEJnTlZIUk1CQWY4RUJUQURBUUgvTUEwR0NTcUdTSWIzRFFFQkN3VUFBNElCQVFBSgp3a1R2bFc1QzFRaStqRURQVEtMSTI4NUVHTm9CUmRnZ1RUNWh0QmpXR0h5bzM5N0dMaHVHNkpnb0RvNDJFU1pSCk9UNWpVZTMyOElxQUpOYXE5UmdlMkFUM0tTakRETVVoc3lteWdaeDMxNW9wU3VJVmtUdVdpWHdyWEhQYkVVVXoKV3U1QWF0K3JWa3JzdVRtZFBQbkhvcjc3ancwOHpMVy9PSktBZ2ZSd3ZOR014QTl0YWpERUJETUJqQVl4VG1ZRgpIMHRyS3JwOFpiWkxxejB6SHhVQWlxZzE4TGJyYmI2QUpKUXAwZUNVeStWZTVPY2JRMzlQckZGeGVjS2F0Z01pCmRrOU85VkdvODFUVU5qQmZMczVhZ1JESzhNZFZ5RU5qTUZLbVZUSUJRUUc1dzZBOUc5N2dKNWR2eC83VFFyWUsKVUo1cE1kandsTlM3WFZQRVBuMXYKLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
+    server: https://35.236.121.212
+  name: gke_api-management-178215_us-west2_apim-kubernetes-dev1
+contexts:
+- context:
+    cluster: gke_api-management-178215_us-west2_apim-kubernetes-dev1
+    user: gke_api-management-178215_us-west2_apim-kubernetes-dev1
+  name: gke_api-management-178215_us-west2_apim-kubernetes-dev1
+current-context: gke_api-management-178215_us-west2_apim-kubernetes-dev1
+kind: Config
+preferences: {}
+users:
+- name: gke_api-management-178215_us-west2_apim-kubernetes-dev1
+  user:
+    auth-provider:
+      config:
+        access-token: ya29.GlxnBlvikulIzZ-a-XR4eZI9Bio9rLZiUsHKY_l1_56MPl7hxkL_C3xCaBOwwq6GktHoqt-LC2YngduXMsY6FEkKP4FzviYVQQ6chQ-qOl9azI-svzLqt7smV3b7hw
+        cmd-args: config config-helper --format=json
+        cmd-path: /Users/mieke02/Downloads/google-cloud-sdk/bin/gcloud
+        expiry: 2018-12-03T22:30:16Z
+        expiry-key: '{.credential.token_expiry}'
+        token-key: '{.credential.access_token}'
+      name: gcp
