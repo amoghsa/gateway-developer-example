@@ -43,3 +43,13 @@ subprojects {
 wrapper {
     gradleVersion = '4.10'
 }
+
+
+// Import task types
+import com.bmuschko.gradle.docker.tasks.image.*
+
+// Use task types
+task buildDockerImage(type: DockerBuildImage) {
+    inputDir = file('./')
+    tag = System.getProperty("imageName") + ":" + System.getProperty("imageTag")
+}
