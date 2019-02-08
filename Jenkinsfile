@@ -4,7 +4,7 @@ pipeline {
     environment {
         GIT_REPOSITORY = 'https://github.com/amoghsa/gateway-developer-example'
         BASE_IMAGE_NAME = 'gateway'
-        BASE_IMAGE_TAG = 'amogh-demo'
+        BASE_IMAGE_TAG = 'wlui-test'
         BASE_IMAGE_REGISTRY_HOSTNAME = 'docker.stable1.apimgcp.com'
         BASE_IMAGE_REGISTRY_REPOSITORY    = 'docker-hosted'
         NEW_IMAGE_NAME = 'gateway'
