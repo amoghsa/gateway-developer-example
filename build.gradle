@@ -4,10 +4,6 @@
  * of the MIT license.  See the LICENSE file for details.
  */
 
-plugins {
-    id "com.bmuschko.docker-remote-api" version "4.0.4"
-}
-
 buildscript {
     repositories {
         mavenLocal()
@@ -21,6 +17,10 @@ buildscript {
         classpath "com.ca.apim.gateway:gateway-export-plugin:0.6.+"
         classpath "com.ca.apim.gateway:gateway-import-plugin:0.6.+"
     }
+}
+
+plugins {
+    id "com.bmuschko.docker-remote-api" version "4.0.4"
 }
 
 subprojects {
