@@ -4,7 +4,7 @@
 
 version: '3.4'
 services:
-  gateway-dev:
+  nexus:
     hostname: docker.k8s.apimsvc.ca.com
     image: docker.k8s.apimsvc.ca.com/repository/docker-hosted/gateway
     ports:

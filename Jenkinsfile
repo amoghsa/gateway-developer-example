@@ -41,7 +41,7 @@ pipeline {
                     env.GATEWAY_CONTAINER_IP = sh([script: "docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' ${env.GATEWAY_CONTAINER_ID}", returnStdout: true]).trim()
                 }
 
-                timeout(6) {
+                timeout(4) {
                     waitUntil {
                         script {
                             def r = sh script: "wget http://${env.GATEWAY_CONTAINER_IP}:8080/demo", returnStatus: true
