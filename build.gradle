@@ -28,7 +28,7 @@ subprojects {
     if (!project.name.equals('deployment')) {
         apply plugin: 'com.ca.apim.gateway.gateway-export-plugin'
         GatewayConnection {
-            url = 'https://demoamogh:8443/restman'
+            url = 'https://ssg94-demo-plugin.ca.com:8443/restman'
         }
     } 
 
