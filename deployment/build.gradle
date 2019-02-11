@@ -5,5 +5,5 @@
  */
 
 dependencies {
-    bundle project(':demo')
+//    bundle project(':demo')
 }
